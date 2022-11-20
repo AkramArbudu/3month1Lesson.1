@@ -26,8 +26,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var fourImageView: UIImageView!
     
     
+  
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        
+//        if touchDigit.isSelected == true {
+//        touchDigit.backGrounColor = UIColor.black
+//        }
+
+
         firstView.layer.cornerRadius = 30
         secondView.layer.cornerRadius = 30
         thirdView.layer.cornerRadius = 30
